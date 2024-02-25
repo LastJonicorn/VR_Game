@@ -7,7 +7,7 @@
 <li> Added pinch and grip animations for both hands </li>
 <li> Added continous movement </li>
 <li> Added continous turn </li>
-<li> Added snap turn (disabled) </li>
+<li> Added snap turn (disabled by default) </li>
 <li> Added Teleportation movement </li>
 </ul>
 </br>
