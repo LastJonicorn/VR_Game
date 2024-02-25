@@ -7,10 +7,12 @@
 -Added continous movement </br>
 -Added continous turn </br>
 -Added snap turn (disabled) </br>
+-Added Teleportation movement </br>
 </br>
 <h2>What's not done:</h2> 
--Teleportation movement </br>
 -Animation for pointing </br>
 -Moving objects by pushing </br>
 -Moving objects by Grabing </br>
 -Actual level </br>
+<h2>Problems:</h2> 
+-Player always spawns at ground level. Reseting your position fixes it. </br>
