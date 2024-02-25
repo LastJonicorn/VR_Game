@@ -2,23 +2,27 @@
 
 <h2>What's done:</h2> 
 <ul>
--<li>Camera follows orientation and height of HMD </li></br>
--Added Oculus hand models </br>
--Added pinch and grip animations for both hands </br>
--Added continous movement </br>
--Added continous turn </br>
--Added snap turn (disabled) </br>
--Added Teleportation movement </br>
+<li> Camera follows orientation and height of HMD </li>
+<li> Added Oculus hand models </li>
+<li> Added pinch and grip animations for both hands </li>
+<li> Added continous movement </li>
+<li> Added continous turn </li>
+<li> Added snap turn (disabled) </li>
+<li> Added Teleportation movement </li>
 </ul>
 </br>
 
 <h2>What's not done:</h2> 
--Animation for pointing </br>
--Moving objects by pushing </br>
--Moving objects by Grabing </br>
--Actual level </br>
+<ul>
+<li> Animation for pointing </li>
+<li> Moving objects by pushing </li>
+<li> Moving objects by Grabing </li>
+<li> Actual level </li>
+</ul>
 </br>
 
 <h2>Problems:</h2> 
--Player always spawns at ground level. Reseting your position fixes it. </br>
+<ul>
+<li> Player always spawns at ground level. Reseting your position fixes it. </li>
+</ul>
 </br>
