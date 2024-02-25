@@ -18,6 +18,7 @@
 <li> Moving objects by pushing </li>
 <li> Moving objects by Grabing </li>
 <li> Actual level </li>
+<li> Throwing objects </li>
 </ul>
 </br>
 
