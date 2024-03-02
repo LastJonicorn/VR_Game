@@ -9,6 +9,8 @@
 <li> Added continous turn </li>
 <li> Added snap turn (disabled by default) </li>
 <li> Added Teleportation movement </li>
+<li> Moving objects by Grabing </li>
+<li> Throwing objects </li>
 </ul>
 </br>
 
@@ -16,9 +18,8 @@
 <ul>
 <li> Animation for pointing </li>
 <li> Moving objects by pushing </li>
-<li> Moving objects by Grabing </li>
 <li> Actual level </li>
-<li> Throwing objects </li>
+<li> Having something happen to objects when thrown (Breaking) </li>
 </ul>
 </br>
 
