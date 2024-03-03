@@ -12,6 +12,8 @@
 <li> Moving objects by Grabing </li>
 <li> Throwing objects </li>
 <li> Grabing objects with a ray interactor </li>
+<li> Added a simple options panel </li>
+<li> Player can switch between snap & continous turn </li>
 </ul>
 </br>
 
