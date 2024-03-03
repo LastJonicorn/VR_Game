@@ -5713,6 +5713,11 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 833451193}
+    - target: {fileID: 7472268843706818123, guid: 087e2a9d318d8b842b11b221d1f79534,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 8417463773015886670, guid: 087e2a9d318d8b842b11b221d1f79534,
         type: 3}
       propertyPath: m_Size.x
