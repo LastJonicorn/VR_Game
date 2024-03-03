@@ -11,6 +11,7 @@
 <li> Added Teleportation movement </li>
 <li> Moving objects by Grabing </li>
 <li> Throwing objects </li>
+<li> Grabing objects with a ray interactor </li>
 </ul>
 </br>
 
