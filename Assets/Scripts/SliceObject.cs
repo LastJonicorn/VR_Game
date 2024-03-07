@@ -54,7 +54,7 @@ public class SliceObject : MonoBehaviour
 
     public void SetupSlicedComponent(GameObject SlicedObject)
     {
-        SlicedObject.layer = LayerMask.NameToLayer("Sliceable");
+        SlicedObject.layer = LayerMask.NameToLayer("Sliceable"); // Set the layer to "Sliceable"
         Rigidbody rb = SlicedObject.AddComponent<Rigidbody>();
         MeshCollider collider = SlicedObject.AddComponent<MeshCollider>();
         collider.convex = true;
