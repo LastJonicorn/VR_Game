@@ -14,6 +14,8 @@
 <li> Grabing objects with a ray interactor </li>
 <li> Added a simple options panel </li>
 <li> Player can switch between snap & continous turn </li>
+<li> Added a dynamic liquid shader </li>
+<li> Added Sliceable objects (Can be sliced multiple times) </li>
 </ul>
 </br>
 
