@@ -16,6 +16,7 @@
 <li> Player can switch between snap & continous turn </li>
 <li> Added a dynamic liquid shader </li>
 <li> Added Sliceable objects (Can be sliced multiple times) </li>
+<li> Added variation of Sliceable objects based on Tag </li>
 </ul>
 </br>
 
