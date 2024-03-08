@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using EzySlice;
 using UnityEngine.InputSystem;
+using System;
 
 public class SliceObject : MonoBehaviour
 {
@@ -11,15 +12,8 @@ public class SliceObject : MonoBehaviour
     public Transform EndSlicePoint;
     public LayerMask SliceableLayer;
     public VelocityEstimator VelocityEstimator;
-
     public Material CrossSectionMaterial;
     public float CutForce = 500;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -32,6 +26,7 @@ public class SliceObject : MonoBehaviour
         }
     }
 
+    //Logic for slicing objects in two
     public void Slice(GameObject Target)
     {
         Vector3 velocity = VelocityEstimator.GetVelocityEstimate();
@@ -40,18 +35,35 @@ public class SliceObject : MonoBehaviour
 
         SlicedHull hull = Target.Slice(EndSlicePoint.position, planeNormal);
 
-        if(hull != null)
+        if (hull != null)
         {
             GameObject upperHull = hull.CreateUpperHull(Target, CrossSectionMaterial);
             SetupSlicedComponent(upperHull);
+
             GameObject lowerHull = hull.CreateLowerHull(Target, CrossSectionMaterial);
-            SetupSlicedComponent(lowerHull);
+
+            // Check if the lower hull's tag is "Test" before removing Rigidbody component
+            if (Target.CompareTag("Tatami"))
+            {
+                // Perform actions if the tag matches
+                lowerHull.layer = LayerMask.NameToLayer("Sliceable"); // Set the layer to "Sliceable"
+                lowerHull.tag = "Tatami";
+                MeshCollider collider = lowerHull.AddComponent<MeshCollider>();
+                collider.convex = true;
+                Debug.Log("Success");
+            }
+            else
+            {
+                // Perform actions if the tag does not match
+                SetupSlicedComponent(lowerHull);
+                Debug.Log("Tag Tatami not registered");
+            }
 
             Destroy(Target);
-
         }
     }
 
+    //Logic for the two new gameObjects created by the Slice
     public void SetupSlicedComponent(GameObject SlicedObject)
     {
         SlicedObject.layer = LayerMask.NameToLayer("Sliceable"); // Set the layer to "Sliceable"
