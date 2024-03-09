@@ -16,6 +16,7 @@
 <li> Player can switch between snap & continous turn </li>
 <li> Added a dynamic liquid shader </li>
 <li> Added Sliceable objects (Can be sliced multiple times) </li>
+<li> Added variation of Sliceable objects based on Tag </li>
 </ul>
 </br>
 
@@ -25,6 +26,13 @@
 <li> Moving objects by pushing </li>
 <li> Actual level </li>
 <li> Having something happen to objects when thrown (Breaking) </li>
+<li> Make slicing work with a sword (Only the edges cut) </li>
+</ul>
+</br>
+
+<h2>Ideas:</h2> 
+<ul>
+<li> Energy ball spell that you can use to smash objects like rocks </li>
 </ul>
 </br>
 
