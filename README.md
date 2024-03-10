@@ -28,6 +28,7 @@
 <li> Actual level </li>
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
+<li> Haptic feedback </li>
 </ul>
 </br>
 
