@@ -29,6 +29,8 @@
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
 <li> Haptic feedback </li>
+<li> Jumping </li>
+<li> Tutorial </li>
 </ul>
 </br>
 
