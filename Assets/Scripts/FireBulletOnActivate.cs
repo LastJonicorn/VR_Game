@@ -1,34 +1,56 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class FireBulletOnActivate : MonoBehaviour
 {
-
-    public GameObject Bullet;
+    public GameObject bulletPrefab;
     public Transform spawnPoint;
-    public float fireSpeed = 20;
+    public float fireSpeed = 20f;
+    public GameObject muzzleFlashPrefab; // Reference to the muzzle flash particle system prefab
 
+    private XRGrabInteractable grabbable;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
-        grabbable.activated.AddListener(FireBullet);
+        grabbable = GetComponent<XRGrabInteractable>();
+        if (grabbable != null)
+            grabbable.activated.AddListener(FireBullet);
+        else
+            Debug.LogError("No XRGrabInteractable component found on " + gameObject.name);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDestroy()
     {
-        
+        if (grabbable != null)
+            grabbable.activated.RemoveListener(FireBullet);
     }
 
-    public void FireBullet(ActivateEventArgs arg)
+    private void FireBullet(ActivateEventArgs arg)
     {
-        GameObject spawnedBullet = Instantiate(Bullet);
-        spawnedBullet.transform.position = spawnPoint.position;
-        spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
-        Destroy(spawnedBullet, 5);
+        if (bulletPrefab == null || spawnPoint == null)
+        {
+            Debug.LogError("Bullet prefab or spawn point not set.");
+            return;
+        }
+
+        GameObject spawnedBullet = Instantiate(bulletPrefab, spawnPoint.position, spawnPoint.rotation);
+        Rigidbody bulletRigidbody = spawnedBullet.GetComponent<Rigidbody>();
+        if (bulletRigidbody != null)
+            bulletRigidbody.velocity = spawnPoint.forward * fireSpeed;
+        else
+        {
+            Debug.LogError("Rigidbody component not found on bullet prefab.");
+            Destroy(spawnedBullet);
+            return;
+        }
+
+        // Instantiate muzzle flash if available
+        if (muzzleFlashPrefab != null)
+        {
+            GameObject muzzleFlash = Instantiate(muzzleFlashPrefab, spawnPoint.position, spawnPoint.rotation);
+            Destroy(muzzleFlash, 0.1f); // Adjust the duration as needed
+        }
+
+        Destroy(spawnedBullet, 5f);
     }
 }
