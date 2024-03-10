@@ -1,29 +1,17 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Rendering.PostProcessing;
+using UnityEngine.Rendering;
 
-public class BloomControl : MonoBehaviour
+public class BloomIntensityControl : MonoBehaviour
 {
-    public Slider bloomSlider;
-    public PostProcessVolume postProcessVolume;
-    Bloom bloomLayer;
+    public Volume globalVolume;
+    private Bloom bloom;
 
-    void Start()
+    public void OnSliderValueChanged(float value)
     {
-        if (postProcessVolume.profile.TryGetSettings(out bloomLayer))
-        {
-            // Initialize the slider value to the current bloom intensity
-            bloomSlider.value = bloomLayer.intensity.value;
-        }
-        else
-        {
-            Debug.LogError("Bloom effect not found in the Post-Processing Volume.");
-        }
+        Debug.Log("Slider value changed: " + value);
+        bloom.intensity.value = value;
     }
 
-    public void OnBloomIntensityChanged(float value)
-    {
-        // Update bloom intensity when the slider value changes
-        bloomLayer.intensity.value = value;
-    }
 }

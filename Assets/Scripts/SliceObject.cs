@@ -50,13 +50,13 @@ public class SliceObject : MonoBehaviour
                 lowerHull.tag = "Tatami";
                 MeshCollider collider = lowerHull.AddComponent<MeshCollider>();
                 collider.convex = true;
-                Debug.Log("Success");
+                //Debug.Log("Success");
             }
             else
             {
                 // Perform actions if the tag does not match
                 SetupSlicedComponent(lowerHull);
-                Debug.Log("Tag Tatami not registered");
+                //Debug.Log("Tag Tatami not registered");
             }
 
             Destroy(Target);
