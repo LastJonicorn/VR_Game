@@ -43,5 +43,6 @@
 <h2>Problems:</h2> 
 <ul>
 <li> Player always spawns at ground level. Reseting your position fixes it. </li>
+<li> There's a traidoff between good tracking and good slicing. You have to choose one at the moment </li>
 </ul>
 </br>
