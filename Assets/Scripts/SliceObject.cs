@@ -47,16 +47,16 @@ public class SliceObject : MonoBehaviour
             {
                 // Perform actions if the tag matches
                 lowerHull.layer = LayerMask.NameToLayer("Sliceable"); // Set the layer to "Sliceable"
+                Rigidbody rb = lowerHull.AddComponent<Rigidbody>(); //Added 11.3
+                rb.isKinematic = true; //Added 11.3
                 lowerHull.tag = "Tatami";
                 MeshCollider collider = lowerHull.AddComponent<MeshCollider>();
                 collider.convex = true;
-                //Debug.Log("Success");
             }
             else
             {
                 // Perform actions if the tag does not match
                 SetupSlicedComponent(lowerHull);
-                //Debug.Log("Tag Tatami not registered");
             }
 
             Destroy(Target);

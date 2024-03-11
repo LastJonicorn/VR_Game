@@ -61,13 +61,29 @@ namespace EzySlice {
 #endif
         }
 
-        public void Compute(Vector3 pos, Vector3 norm) {
+        public void Compute(Vector3 pos, Vector3 norm)
+        {
+            // Ensure the normal points upward
+            if (norm.y < 0)
+            {
+                norm = -norm;
+            }
+
             this.m_normal = norm;
             this.m_dist = Vector3.Dot(norm, pos);
         }
 
-        public void Compute(Transform trans) {
-            Compute(trans.position, trans.up);
+        public void Compute(Transform trans)
+        {
+            Vector3 norm = trans.up;
+
+            // Ensure the normal points upward
+            if (norm.y < 0)
+            {
+                norm = -norm;
+            }
+
+            Compute(trans.position, norm);
 
             // this is for editor debugging only!
 #if UNITY_EDITOR
