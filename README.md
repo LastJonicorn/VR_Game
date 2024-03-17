@@ -18,13 +18,14 @@
 <li> Sliceable objects (Can be sliced multiple times) </li>
 <li> Variation of Sliceable objects based on Tag </li>
 <li> Custom hand poses (Not yet in all objects tho) </li>
+<li> Custom animation for pointing </li>
 </ul>
 </br>
 
 <h2>What's not done:</h2> 
 <ul>
-<li> Animation for pointing </li>
-<li> Moving objects by pushing </li>
+<li> Moving objects by pushing (In progress) </li>
+<li> Pointing interactions </li>
 <li> Actual level </li>
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
