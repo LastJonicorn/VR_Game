@@ -102,6 +102,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Bottle002
       objectReference: {fileID: 0}
+    - target: {fileID: 8087638465489376161, guid: eacf1b939154c9e4f96984712ede7d63,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8087638465489376161, guid: eacf1b939154c9e4f96984712ede7d63,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -175,6 +185,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Item_Bottle001
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081070892051744266, guid: 328af48b4b102a6459afe969dddf33fd,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8081070892051744266, guid: 328af48b4b102a6459afe969dddf33fd,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -279,6 +299,11 @@ PrefabInstance:
       propertyPath: CrossSectionMaterial
       value: 
       objectReference: {fileID: 2100000, guid: 7f343bca0751b9745b67db37c7964c7f, type: 2}
+    - target: {fileID: 2778425003129006767, guid: 1ae6a66e396366346b43e133cdb73224,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3806031042914097698, guid: 1ae6a66e396366346b43e133cdb73224,
         type: 3}
       propertyPath: m_Name
@@ -575,10 +600,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2001661582341410004}
     m_Modifications:
+    - target: {fileID: 931364819408360995, guid: d8ec7139903791b4b862f763818d29ff,
+        type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 931364819408360995, guid: d8ec7139903791b4b862f763818d29ff,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5966538752309511016, guid: d8ec7139903791b4b862f763818d29ff,
         type: 3}
       propertyPath: m_Name
       value: pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 6215236900151122274, guid: d8ec7139903791b4b862f763818d29ff,
+        type: 3}
+      propertyPath: HandPhysics
+      value: HandPhysics
       objectReference: {fileID: 0}
     - target: {fileID: 8571878761700567048, guid: d8ec7139903791b4b862f763818d29ff,
         type: 3}

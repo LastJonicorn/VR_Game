@@ -21,6 +21,9 @@ public class GrabHandPose : MonoBehaviour
     private Quaternion[] StartFingerRotation;
     private Quaternion[] FinalFingerRotation;
 
+    public GameObject LeftHandColliders; // Reference to hands
+    public GameObject RightHandColliders;
+
 
     // I don't fucking know
     void Start()
@@ -37,17 +40,28 @@ public class GrabHandPose : MonoBehaviour
     //Set custom hand position
     public void SetupPose(BaseInteractionEventArgs arg)
     {
-        if(arg.interactorObject is XRDirectInteractor)
+        Rigidbody rbLeft = LeftHandColliders.GetComponent<Rigidbody>();
+        Rigidbody rbRight = RightHandColliders.GetComponent<Rigidbody>();
+
+        if (arg.interactorObject is XRDirectInteractor)
         {
             HandData handData = arg.interactorObject.transform.GetComponentInChildren<HandData>();
             handData.Animator.enabled = false;
 
-            if(handData.HandType == HandData.HandModelType.Right) 
+            if (handData.HandType == HandData.HandModelType.Right) 
             {
+                DisableAllColliders(RightHandColliders);
+                rbRight.isKinematic = true;
+                RightHandColliders.GetComponent<HandPhysics>().enabled = false;
+
                 SetHandDataValues(handData, RightHandPose);
             }
             else
             {
+                DisableAllColliders(LeftHandColliders);
+                rbLeft.isKinematic = true;
+                LeftHandColliders.GetComponent<HandPhysics>().enabled = false;
+
                 SetHandDataValues(handData, LeftHandPose);
 
             }
@@ -59,14 +73,69 @@ public class GrabHandPose : MonoBehaviour
     //Set hand position back to default after letting go of object
     public void UnSetPose(BaseInteractionEventArgs arg)
     {
+        Rigidbody rbLeft = LeftHandColliders.GetComponent<Rigidbody>();
+        Rigidbody rbRight = RightHandColliders.GetComponent<Rigidbody>();
+
+
+        //if (arg.interactorObject is XRDirectInteractor)
+        //{
+        //    HandData handData = arg.interactorObject.transform.GetComponentInChildren<HandData>();
+        //    handData.Animator.enabled = true;
+
+        //    StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
+        //}
+
         if (arg.interactorObject is XRDirectInteractor)
         {
             HandData handData = arg.interactorObject.transform.GetComponentInChildren<HandData>();
             handData.Animator.enabled = true;
 
-            StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
+            if (handData.HandType == HandData.HandModelType.Right)
+            {
+                StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
+                EnableAllColliders(RightHandColliders);
+                rbRight.isKinematic = false;
+                RightHandColliders.GetComponent<HandPhysics>().enabled = true;
+            }
+            else
+            {
+                StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
+                EnableAllColliders(LeftHandColliders);
+                rbLeft.isKinematic = false;
+                LeftHandColliders.GetComponent<HandPhysics>().enabled = true;
+            }
+        }
+
+    }
+
+    void DisableAllColliders(GameObject obj)
+    {
+        Collider[] colliders = obj.GetComponentsInChildren<Collider>();
+
+        foreach (Collider collider in colliders)
+        {
+            collider.isTrigger = true;
         }
     }
+
+    void EnableAllColliders(GameObject obj)
+    {
+        Collider[] colliders = obj.GetComponentsInChildren<Collider>();
+
+        foreach (Collider collider in colliders)
+        {
+            collider.isTrigger = false;
+        }
+    }
+
+    // void SetRigidBodyNonKinematic()
+    //{
+    //    Rigidbody rbLeft = LeftHandDisablePhysics.GetComponent<Rigidbody>();
+    //    rbLeft.isKinematic = false; // Set isKinematic to false after 1 second
+
+    //    Rigidbody rbRight = RightHandDisablePhysics.GetComponent<Rigidbody>();
+    //    rbLeft.isKinematic = false; // Set isKinematic to false after 1 second
+    //}
 
     public void SetHandDataValues(HandData h1, HandData h2)
     {
