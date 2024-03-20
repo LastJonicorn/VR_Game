@@ -19,6 +19,7 @@
 <li> Variation of Sliceable objects based on Tag </li>
 <li> Custom hand poses (Not yet in all objects tho) </li>
 <li> Custom animation for pointing </li>
+<li> Added Jenga pieces to demonstrate and test hand/finger physics </li>
 </ul>
 </br>
 
@@ -43,7 +44,7 @@
 
 <h2>Problems:</h2> 
 <ul>
-<li> Player always spawns at ground level. Reseting your position fixes it. </li>
+<li> Player always spawns at ground level. Reseting your position fixes it. (	Except when going through Main menu ) </li>
 <li> There's a traidoff between good tracking and good slicing. You have to choose one at the moment </li>
 </ul>
 </br>
