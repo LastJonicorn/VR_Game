@@ -5776,6 +5776,196 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 79729630144324283, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 79729630144324283, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 82949409116422181, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 82949409116422181, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 123854176139150451, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 123854176139150451, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 159467775023203967, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 159467775023203967, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 415901570808115691, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 487123584514911775, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 487123584514911775, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 617974149388764649, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 626498706548100523, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 626498706548100523, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 646745137076238110, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 646745137076238110, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 700365151417806822, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 700365151417806822, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1072024021036587361, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117792085650578624, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1117792085650578624, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1138968591604121880, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1138968591604121880, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1235579385744942578, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1235579385744942578, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1258896397711782709, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1258896397711782709, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1318811361847899867, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1318811361847899867, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1594509377709098418, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660591890405420989, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1660591890405420989, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1668903556980795391, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1684721154600770890, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1736527224896929213, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1736527224896929213, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 1899802118952852415, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 1899802118952852415, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
     - target: {fileID: 2001661582341410004, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5826,6 +6016,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2170984642994925095, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2215302333032950385, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2355266779983693373, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 2355266779983693373, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 2374032338365092090, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 2374032338365092090, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 2414320159620767300, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435391284426605468, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2510052694762408310, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: HandPhysics
@@ -5851,11 +6081,61 @@ PrefabInstance:
       propertyPath: RightHandDisablePhysics
       value: 
       objectReference: {fileID: 391301005}
+    - target: {fileID: 2565559479506863059, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 2565559479506863059, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 2800239187852761781, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 2800239187852761781, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 2922153168976441667, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3001729416590886755, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: m_Name
       value: VR_Main_SCene_Items
       objectReference: {fileID: 0}
+    - target: {fileID: 3012498572702861493, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3012498572702861493, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3137490260866231991, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3137490260866231991, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3204739507325229347, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3371818909721403029, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: LeftHandColliders
@@ -5874,6 +6154,121 @@ PrefabInstance:
     - target: {fileID: 3371818909721403029, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: RightHandDisablePhysics
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3410437883565571559, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490269392832098683, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3490269392832098683, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3516370813484177331, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3516370813484177331, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3526700307707032877, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3526700307707032877, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3738377100335559543, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3738377100335559543, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 3915436557902815969, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3969207716641774359, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 3969207716641774359, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4066710151787698926, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4066710151787698926, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4120330164514456086, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4120330164514456086, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4136042183820015779, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4136042183820015779, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4324112534775261575, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474753753092846608, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4474753753092846608, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4491453082091645384, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4491453082091645384, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
       value: 
       objectReference: {fileID: 391301005}
     - target: {fileID: 4512027783603351869, guid: 45ed19c9b28113143b04e532c28c9d79,
@@ -5901,6 +6296,11 @@ PrefabInstance:
       propertyPath: RightHandDisablePhysics
       value: 
       objectReference: {fileID: 391301005}
+    - target: {fileID: 4569647725242088110, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4577115991187128685, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: hitEffectPrefab
@@ -5913,6 +6313,76 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2759577219911376400, guid: a190a97b06a81144c99cd58d5a9db39f,
         type: 3}
+    - target: {fileID: 4667744092696019878, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4667744092696019878, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4713519413152810958, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752753794559501744, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4752753794559501744, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4899618864947430371, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4933368299135542471, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4933368299135542471, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4946943057745553253, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4946943057745553253, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 4996123528788779417, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 4996123528788779417, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5102247748017080322, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5102247748017080322, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
     - target: {fileID: 5114256912338062256, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: HandPhysics
@@ -5936,6 +6406,436 @@ PrefabInstance:
     - target: {fileID: 5114256912338062256, guid: 45ed19c9b28113143b04e532c28c9d79,
         type: 3}
       propertyPath: RightHandDisablePhysics
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5142463514595440482, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5142463514595440482, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5158539120748969522, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5255108718079688305, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5255108718079688305, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5431648136625170602, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5431648136625170602, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5481583069019276948, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5481583069019276948, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 5513052917174954642, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 5513052917174954642, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6058699758877513120, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6058699758877513120, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6190848541242810236, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6190848541242810236, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6301945697595937829, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6345053247094510694, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6345053247094510694, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6375676943039007126, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6375676943039007126, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6396612176864173366, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6422124804473060226, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6422124804473060226, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6437390970126017110, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6542934558925278157, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573154052808797562, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6573154052808797562, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6575243567612120369, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6624302351435353747, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6658034206382090679, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6658034206382090679, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6804318729252933604, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6841301392155667866, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6841301392155667866, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 6872439386246506994, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6889578021191233678, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 6889578021191233678, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7087944811870034376, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7119420157600101838, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7223112722304477812, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7223112722304477812, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7290793095981053942, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332768829630996648, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7332768829630996648, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7550303780907159178, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7550303780907159178, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7614774794502339742, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7614774794502339742, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7627340187694276974, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7627340187694276974, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7705485214847572082, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7705485214847572082, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7904380190549613759, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7904380190549613759, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 7947546606627505542, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 7947546606627505542, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8009307156065491090, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8009307156065491090, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8080237662449832120, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8080237662449832120, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8147224718928705198, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8147224718928705198, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8202106293563404242, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395310941616002193, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8395310941616002193, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8462540444161004141, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8462540444161004141, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8464381679118643750, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476110290909417935, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8476110290909417935, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8517990131307353802, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8541739015371211370, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8541739015371211370, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8581954858679909642, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8581954858679909642, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8597643239323985118, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8735308426745695097, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8735308426745695097, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8816884607103601404, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8842534198886620578, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 8842534198886620578, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 8909599387511111712, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: m_InteractionLayers.m_Bits
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9031306433637982106, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 9031306433637982106, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
+      value: 
+      objectReference: {fileID: 391301005}
+    - target: {fileID: 9062816886448026524, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: LeftHandColliders
+      value: 
+      objectReference: {fileID: 1127237443}
+    - target: {fileID: 9062816886448026524, guid: 45ed19c9b28113143b04e532c28c9d79,
+        type: 3}
+      propertyPath: RightHandColliders
       value: 
       objectReference: {fileID: 391301005}
     m_RemovedComponents: []
