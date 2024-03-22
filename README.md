@@ -27,7 +27,8 @@
 <h2>What's not done:</h2> 
 <ul>
 <li> Despawn sliced objects after a time </li>
-<li> Pointing interactions (In progress)</li>
+<li> Pointing interactions (In progress) </li>
+<li> SoftBody interactions </li>
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
 <li> Haptic feedback </li>
