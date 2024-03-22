@@ -44,7 +44,8 @@
 
 <h2>Problems:</h2> 
 <ul>
-<li> Player always spawns at ground level. Reseting your position fixes it. (	Except when going through Main menu ) </li>
+<li> Player always spawns at ground level (	Except when going through Main menu ). Reseting your position fixes it </li>
 <li> There's a traidoff between good tracking and good slicing. You have to choose one at the moment </li>
+<li> Colliders go inside each other when releasing a grabbed item whitch causes the item to fly to oblivion </li>
 </ul>
 </br>
