@@ -20,18 +20,20 @@
 <li> Custom hand poses (Not yet in all objects tho) </li>
 <li> Custom animation for pointing </li>
 <li> Added Jenga pieces to demonstrate and test hand/finger physics </li>
+<li> Moving objects by pushing </li>
 </ul>
 </br>
 
 <h2>What's not done:</h2> 
 <ul>
-<li> Moving objects by pushing (In progress) </li>
-<li> Pointing interactions </li>
-<li> Actual level </li>
+<li> Despawn sliced objects after a time </li>
+<li> Pointing interactions (In progress)</li>
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
 <li> Haptic feedback </li>
 <li> Jumping </li>
+<li> Actual level </li>
+<li> Hand menu </li>
 <li> Tutorial </li>
 </ul>
 </br>
