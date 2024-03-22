@@ -123,25 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &296353300 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8966474364523312362, guid: 40994a3fb1e66f2478d45c79d182c7ad,
-    type: 3}
-  m_PrefabInstance: {fileID: 1318849863}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &296353301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296353300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe0df8086332b64c8aea00adbd1992c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayTime: 1
 --- !u!1 &336064165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1285,6 +1266,16 @@ PrefabInstance:
       propertyPath: m_MaxRaycastDistance
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 2053308522639777785, guid: 40994a3fb1e66f2478d45c79d182c7ad,
+        type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2053308522639777785, guid: 40994a3fb1e66f2478d45c79d182c7ad,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2221090649779737263, guid: 40994a3fb1e66f2478d45c79d182c7ad,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,11 +1344,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8966474364523312362, guid: 40994a3fb1e66f2478d45c79d182c7ad,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 296353301}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40994a3fb1e66f2478d45c79d182c7ad, type: 3}
 --- !u!1 &1439201629
 GameObject:

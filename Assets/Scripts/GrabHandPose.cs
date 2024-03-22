@@ -93,19 +93,24 @@ public class GrabHandPose : MonoBehaviour
             if (handData.HandType == HandData.HandModelType.Right)
             {
                 StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
-                EnableAllColliders(RightHandColliders);
-                rbRight.isKinematic = false;
-                RightHandColliders.GetComponent<HandPhysics>().enabled = true;
+                StartCoroutine(DelayedUnsetPose(handData, RightHandColliders));
             }
             else
             {
                 StartCoroutine(SetHandDataRoutine(handData, StartHandPosition, StartHandRotation, StartFingerRotation, FinalHandPosition, FinalHandRotation, FinalFingerRotation));
-                EnableAllColliders(LeftHandColliders);
-                rbLeft.isKinematic = false;
-                LeftHandColliders.GetComponent<HandPhysics>().enabled = true;
+                StartCoroutine(DelayedUnsetPose(handData, LeftHandColliders));
             }
         }
+    }
 
+    IEnumerator DelayedUnsetPose(HandData handData, GameObject handColliders)
+    {
+        yield return new WaitForSeconds(0.2f); // Adjust the delay time as needed
+
+        EnableAllColliders(handColliders);
+        Rigidbody rb = handColliders.GetComponent<Rigidbody>();
+        rb.isKinematic = false;
+        handColliders.GetComponent<HandPhysics>().enabled = true;
     }
 
     void DisableAllColliders(GameObject obj)

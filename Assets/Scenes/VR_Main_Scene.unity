@@ -4809,12 +4809,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 663308994}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &669582676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8966474364523312362, guid: 40994a3fb1e66f2478d45c79d182c7ad,
-    type: 3}
-  m_PrefabInstance: {fileID: 6199831868205820281}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &684102865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6026607754038039906, guid: 40994a3fb1e66f2478d45c79d182c7ad,
@@ -12624,7 +12618,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6199831868205820281}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669582676}
+  m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
@@ -12636,25 +12630,12 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 6199831868205820281}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669582676}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 919e39492806b334982b6b84c90dd927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2066639193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669582676}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe0df8086332b64c8aea00adbd1992c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayTime: 1
 --- !u!1 &2070409547
 GameObject:
   m_ObjectHideFlags: 0
@@ -14008,6 +13989,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5497144420883666663, guid: 40994a3fb1e66f2478d45c79d182c7ad,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6026607754037872928, guid: 40994a3fb1e66f2478d45c79d182c7ad,
         type: 3}
       propertyPath: m_Layer
@@ -14238,10 +14224,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2144472459}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8966474364523312362, guid: 40994a3fb1e66f2478d45c79d182c7ad,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2066639193}
     - targetCorrespondingSourceObject: {fileID: 3346130176953719396, guid: 40994a3fb1e66f2478d45c79d182c7ad,
         type: 3}
       insertIndex: -1
