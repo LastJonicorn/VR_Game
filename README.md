@@ -19,18 +19,22 @@
 <li> Variation of Sliceable objects based on Tag </li>
 <li> Custom hand poses (Not yet in all objects tho) </li>
 <li> Custom animation for pointing </li>
+<li> Added Jenga pieces to demonstrate and test hand/finger physics </li>
+<li> Moving objects by pushing </li>
 </ul>
 </br>
 
 <h2>What's not done:</h2> 
 <ul>
-<li> Moving objects by pushing (In progress) </li>
-<li> Pointing interactions </li>
-<li> Actual level </li>
+<li> Despawn sliced objects after a time </li>
+<li> Pointing interactions (In progress) </li>
+<li> SoftBody interactions </li>
 <li> Having something happen to objects when thrown (Breaking) </li>
 <li> Make slicing work with a sword (Only the edges cut) </li>
 <li> Haptic feedback </li>
 <li> Jumping </li>
+<li> Actual level </li>
+<li> Hand menu </li>
 <li> Tutorial </li>
 </ul>
 </br>
@@ -43,7 +47,8 @@
 
 <h2>Problems:</h2> 
 <ul>
-<li> Player always spawns at ground level. Reseting your position fixes it. </li>
+<li> Player always spawns at ground level (	Except when going through Main menu ). Reseting your position fixes it </li>
 <li> There's a traidoff between good tracking and good slicing. You have to choose one at the moment </li>
+<li> Colliders go inside each other when releasing a grabbed item whitch causes the item to fly to oblivion </li>
 </ul>
 </br>
