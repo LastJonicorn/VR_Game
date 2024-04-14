@@ -1082,6 +1082,10 @@ MonoBehaviour:
   PoseTransitionDuration: 0.2
   RightHandPose: {fileID: 1618110872132290119}
   LeftHandPose: {fileID: 2750729157914327026}
+  LeftHandColliders: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
+    type: 3}
+  RightHandColliders: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364,
+    type: 3}
 --- !u!4 &4583096233206300824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 12d3a7c552ae28848a927adedb120b02,

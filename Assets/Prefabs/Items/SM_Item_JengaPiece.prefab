@@ -744,8 +744,10 @@ MonoBehaviour:
   PoseTransitionDuration: 0.2
   RightHandPose: {fileID: 8615422620145467467}
   LeftHandPose: {fileID: 8665590327203264820}
-  LeftHandColliders: {fileID: 0}
-  RightHandColliders: {fileID: 0}
+  LeftHandColliders: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b,
+    type: 3}
+  RightHandColliders: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364,
+    type: 3}
 --- !u!114 &2066881453672299740
 MonoBehaviour:
   m_ObjectHideFlags: 0
